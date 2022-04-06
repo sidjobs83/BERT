@@ -1,0 +1,168 @@
+﻿Title,Description,State,Potential cost saving in USD,Remote Link Count,Category
+Special Construction for circuit delivery is to be managed efficiently as this may delay the project schedule,"It usually takes 6 weeks to get the ETA for Special Construction work from ATT once they place the order from their carrier. So, if the project require any special construction work it is best to wait for the timelines before committing any ETA to business as the timelines varies a lot and depends on the complexity of the work.&nbsp; This is experienced for one of the US site (WAS-SET). At the same time, it is important to know about the Special Construction work at the very early stage of the project by asking AT&amp;T to have the site survey completed. Also, it is important that we get the breakup of the cost for the special construction work. Please note, cost for any work that is required in the site premise has to be taken up by Business and any work required outside premise is a project cost. So, this is important we get a breakup of the cost and provide it to business and the project sponsor.",New,11136,0,Special Construction related
+TWIC Card requirement for vendors for Manufacturing Refineries as per HSSE pre-requirement is mandatory,"<div>For any coastal area refineries within the fence line, any AT&amp;T work TWIC card is mandatory for vendors visit.&nbsp; This delays the project by 40 working days. To address this issue, it is recommended to include special comments of mandatory requirement of TWIC card&nbsp; in the MDS discussion at early stage of the project to avoid delays.</div>",New,5705,0,Vendor site visit
+Application PCI Compliance for VPN connectivity,<div>PM should check Application PCI compliance for any VPN connectivity</div>,Closed,0,0,Others
+Active involvement of NDA and attention to details for approval request,"<div>The PM could have paid attention to NDA recommendation in the approval note and consulted necessary teams to fix it at early stages, there was a possibility of cancelling the procurement and procuring the Aruba APs (6Nos) and supporting switches which could have saved rework and huge regret cost for Shell. <br></div>",New,0,0,Others
+Supplier (vendor) selection for sites in India for Internet circuit ,"<div>For India site, AT&amp;T is planning to replace&nbsp;Reliance circuit because of the risks associated with Reliance bankruptcy. This is experience for TLJ (Taloja) site in India where AT&amp;T highlighted that&nbsp;they are looking
+to replace the Reliance connection. TLJ site is a HA site where one of the internet link is directly procured by Shell from Bharti Airtel and the other interlink link is a Reliance link procured through AT&amp;T. We have project to upgrade the internet link at the site and need to ensure that we have full diversity. AT&amp;T highlighted that&nbsp;they are looking
+to replace the Reliance connection but cannot guarantee diversity if we order a
+single connection to replace the Reliance link so the recommendation would be
+to order a new, fully diverse, HA solution. That means that one of the Airtel link that Shell is managing need to be owned by AT&amp;T in order to have diversity as per AT&amp;T.If you come across these situations, please ensure that you engage Commercials and procurement team and someone from Connectivity team to discuss and take the decision as this discussion is not just limited to the pricing but also on the ownership of the support to manage this link. If Shell owns both the link that Shell is required to manage all coordination with the supplier in case of any circuit failure. So, it is important that this is discussed and documented.</div>",New,0,0,Add new category only if existing category is not applicable
+BT Circuit Ordering process,<div>Engaging BT and understanding the process to place a circuit order with BT.</div>,Closed,0,0,Circuit Delivery
+Circuit delivery at building or site which is not Shell owned require special considerations,"<div>This is specifically for the site that are not Shell owned.&nbsp the site in US (PTN site) which is not Shell owned building.&nbspThis is a 20 floor building and Shell is at 8A T&amp;T placed an order for the circuit with Century Link and the circuit was delivered at the site where
+carrier installed the equipment at the building Parking lot. However,&nbsp; later we get to know from from Building Management that they don’t have any contract with Century
+Link and they cannot allow Century link as a provider for circuit. However, it is too late when we hear about this as the circuit was already delivered at the site.For non Shell owned sites, it is important to have a call with Building facility with the help of Shell contact at the site and give them heads up about any procurement that we are planning to do and also about the carrier from where we are placing the procurement order. In this case, it was a circuit procurement and the carrier (Century Link) who was delivering the circuit had no contract with building. Building has contract with several other Telco but not with Century Link. Now this require a complete new circuit order with new service provider and there is a significant effort which could have been avoided if there would have been any meeting with Facility. This may also result in Early termination fee for 1 year.",New,0,0,Circuit Delivery
+ATT Proposal delay,"<div>ATT has the commitment to provide the proposal in 16 days from the time MDS is approved. For Shell/Elavon- New Acquirer project the proposal writer did not respond to any emails and did not share the proposal on time as agreed. Follow up with proposal writer &amp;&nbsp;TSE a week in advance prior to week&nbsp;on actual date.&nbsp;Also, you can escalate in the ATT weekly call&nbsp;to get tractions.If i have done this follow up a week early, i would have avoided 546 USD.",Closed,546,0,Proposal Related
+AT&T PM can be assigned without NoO as per new process change,"<div>As per new process change with AT&amp;T, AT&amp;T PM resource assignment need not have to wait for Notification of Order (NoO) release. AT&amp;T PM resource is supposed to be assigned as soon as the MDS is agreed with AT&amp;T TSC and draft proposal is ready. So, in this way AT&amp;T PM resource can be onboard in the project from the beginning and he can engage the Design Engineer to work on the proposal and high level design. This will surely result in effort avoidance of atleast 7 days to onboard PM and getting him aware about the project background.&nbspThis is experienced in LSC Bandwidth upgrade project where the PM is assigned for MNA (Manila) site before the proposal submission and NoO release.</div>",New,7187,0,Add new category only if existing category is not applicable
+Impact of downtime on Terminal sites (T&S) for WAN upgrade,"Usually for WAN upgrade implementation, we require a downtime from site as some of external facing applications will have outage like Skype, Mailbox and internet. Other than that it also important to do impact assessment for business critical applications. For Terminals, usually it is TMS application and site may face outage on their truck loading schedule during WAN upgrade. However, the impact during this outage is minimal if planned and scheduled properly.&nbsp The WAN upgrade usually include the network router but not network switches, the
+truck rack should not need to be shut down; however, any 3 party 
+TAB load entered while the network link was down would not synchronized to the local TMS servers would have to wait the network is restored. So, usually during a cutover the actual outage usually does not exceed more than 30 mins, this is an acceptable risk if scheduled this with local site. This is specifically for the Terminals where we have TMS applications. Knowing this detail could save lot of efforts in assessment on the impact of outage and better and quick planning with site contact on the schedule for the cutover.",New,48070,0,Implementation Related
+Circuit diversity at POP and at site level for High Availability site is to be clearly agreed,"<div>For High Availability sites (HA), it is important that circuit diversity requirement is captured properly. There could be two single point of failure for the circuit - 1) One is at the carrier POP and 2) Second is at the access path at facility. In general, AT&amp;T or BT have different POPs for circuit diversity but it is important to understand this and get it reviewed with Design team. Secondly, the SPOF at the facility is also important as most of the times carrier do not highlight this requirement to set up a complete diversity. To set up a diversity at the site level, it is important to have 2 different entrance for the fiber run and this may require special construction within site premise and have additional cost. Usually, this cost does not fall under project cost and usually taken up by business but this require discussion with site business and project sponsor.</div>",Closed,0,0,Add new category only if existing category is not applicable
+CIP (Previously called as NUXI) priority list for performance testing measurement post cutover,"For all of Paul Lower’s CIP Programme, CIP team is collecting
+before vs after metrics, to help ensure circuit upgrades provide benefit to the
+end user.&nbsp; To accomplish these reports, they have a testing center in NL
+which communicates with each site and arranges for a test laptop onsite.&nbsp;
+This laptop is used to collect scripted ‘before and after’ test results, which
+ultimately are visualized in Paul’s powerbi dashboard.&nbsp; They do not expect
+to collect every single site being upgraded, but try to obtain the high priority
+sites, including WAN upgrades, internet breakouts, and wLAN/Aruba installs.So, it is important that CIP sharepoint portal is updated regularly and in advance for the go live date as CIP team need some time to set up a test machine to perform this test. Also, it is important to check if your site in scope is considered under critical CIP list of sites which require this kind of arrangement for the testing.",New,0,0,Implementation Related
+AT&T PM cost for standard upgrade project should be always validated,"For standard WAN upgrade project, ATT PM effort should not be more than 18 days. Also, the PM level should not be above JG4. There has been instances where AT&amp;T has quoted JG2 PM with 22 Man days of effort. This is being challenged in the Tower WAN upgrade project for 5 proposals and that has resulted in cost avoidance of 10K USD per site.",New,51000,0,Proposal Related
+Assessment of budget and timeline with Business,"Scope,
+  Time line and Cost are alawys the main areas , need to clarify quickly as
+  possible even when its in the broader level",Closed,0,0,Business/Stakeholder related
+Appropriate model SFPs for the router is needed if there is a circuit test required prior to the cutover,"<div>For Spokane (SPK) Trading site, we wanted to upgrade the circuit from 30 Mbps to 150 Mbps. As part of the design, the circuit handoff was of fibre type with LC-LC fibre connection requirement. As per initial design, AT&amp;T recommended that the new routers will not require SFPs transceiver as the existing SFPs on the current router can be used as these are still not end of life. However, trading support proposed that they would like to ensure that the new circuit and new routers are tested before the cutover and the circuit test activity is scheduled before the cutover. During circuit test, we identified that the new router did not had SFPs which is needed to connect the fibre to router and the activity had to be called off. AT&amp;T highlighted that the circuit testing was not part of the initial scope and hence the SFPs piece was just missed out before they planned for the circuit test activity.&nbsp;Now for circuit test, we needed a SFP and AT&amp;T highlighted that this procurement from AT&amp;T may take up to 3-4 weeks and will have additional cost of more than ~1,000 USD. So, we decided that Shell will purchase these SFPs locally with right model details. The right model SFPs was ordered by local site contact and then the circuit test was completed successfully.So, it is very important to identify the circuit test requirement during design phase so that the SFPs requirements can be captured correctly. This could avoid potential delays in procurement and then final cutover schedule, if planned properly.</div>",New,0,0,Hardware Delivery
+WAN link cut-over - Testing. ,"Post WAN link cut-over, performance issue/ slow internet access issue reported by business. The WAN link was switched back to legacy link.The RCA by ATT required another CHG window to configure Test vlan/port for simulation and perform RCA.This could have been done earlier to avoid further delays cost.",Closed,0,0,Add new category only if existing category is not applicable
+WAN migration - Application testing,"Usually the WAN circuit migrations are performed Out of Business hours, where the users/application testers are not available.",Closed,0,0,Implementation Related
+Target location details to be confirmed for Fiber/equipment orders.,"When the equipment order is placed by/with vendor, the target location should be confirmed with Local onsite, the details of Building, floor, Server rack if possible to be obtained to avoid shipment of these equipment to incorrect location which will delay the project timeline, increase the cost.&nbsp;</li></ul></div>",Closed,0,0,Add new category only if existing category is not applicable
+"Fiber path diversity, Feasibility study","The Path diversity for fiber circuits with respect to Single Point of Failure to be challenged with the supplier. (Example : In one of the sites AT&amp;T mentioned that the proposed solution( with both the fibers in a single path) was the best solution they could provide. However when challenged, they were able to provide an alternate fiber path to remediate SPOF outside Shell premises.</div>",New,0,0,Add new category only if existing category is not applicable
+"Local cable supplier & ATT technician to visit site at same day/time to clarify,test & resolve connectivity issues.","Scope of project</b>: WAN circuit Migration at Stock-Holm Bromma Aviation GCC site.&nbsp;Lessons Learnt : </b>The in-building cabling (inside Shell premises) had to be completed by the Local cable supplier, they had completed the cabling. However when AT&amp;T tested the next day, the connectivity was not established. It was difficult to connect back to the technician who originally visited the site to get the issue troubleshooted &amp; further information like (speed/bandwidth, Static IP or dynamic IP supported etc).&nbsp; This caused further delay in the project and had to postpone all changes related to migration.<b>Recommendation:&nbsp; </b>The Local cable supplier and AT&amp;T technician to visit the site at the same day/time possible so that the connectivity can be tested and will not cause any further delays in troubleshooting individually.&nbsp;",New,0,0,Circuit Delivery
+ Cutover Window rescheduling Cost,It is always good to keep a tab of the invoices while we have such scenarios.</div><div>Negotiate if there are slippages in the past by AT&amp;T and trade off the&nbsp; additional costs if being charged.,New,0,0,Add new category only if existing category is not applicable
+Indepth review of Expedite charge category in the proposal,"<div>PMs are requested to carefully review and validate the Expedite charges category in the proposal along with AT&amp;T PM. A proper discussion and understanding of Expedite component is expected along with AT&amp;T PM.PMs to ensure right expedite category is selected from the list of available expedite categories - Process, Circuit, Hardware expedites.&nbsp;Process Expedite : This only expedites internal Process of AT&amp;T. AT&amp;T Picks and address Impact WO and just places procurement order. Delivery of Circuit or router takes its standard time.Circuit Expedite: AT&amp;T follows its normal time to place Procurement order. Here,&nbsp;AT&amp;T expedite Circuit delivery with Telco and reduce circuit delivery lead timeHardware Expedite : AT&amp;T follows its normal time to place Procurement order. Here,&nbsp;AT&amp;T expedite Router delivery and reduce router delivery lead time",New,0,0,Add new category only if existing category is not applicable
+Eliminate NCR visit uncertainties: AT&T handshake with NCR D-1 of Cutover schedule,"<div>Eliminate NCR visit uncertainties:- PM should ensure AT&amp;T PM contacts assigned NCR&nbsp;a day before the cutover is scheduled. D-1 Check&nbsp;: &nbsp;This check will eliminate any ambiguity related to NCR visit and will give sufficient time to arrange for a back up in case primary NCR doesn't show up.This should be added as one of the activity in the project plan. ( Best practice).There have been instance where project team has waited for 2-3 Hours&nbsp;for back up NCR to arrive at site to resume the cutover activity. Also, sometimes Cutover changes were re-scheduled.<br></div>",New,0,0,Add new category only if existing category is not applicable
+"HSSE/ PPE Check for Shell Site Visitors - Suppliers, Contractors and Telco's","HSSE/ PPE Check for Shell Site Visitors - Suppliers, Contractors and Telco's.PMs to revisit on the importance of HSSE /PPE check for the Site Visit for any 3rd party visits. There have been instances where access were denied due to failing HSSE norms and compliance.Ex: Visit was denied for one of the California Site due to&nbsp;additional pre-requisite certification required as per Site HSSE norms -Online contractor orientation certification.Shell and AT&amp;T PMs need to ensure all HSSE norms are adhered by visitors, 3rd party carry their PPE as per the instructions laid out in SAID portal. Additionally, cross-verify with site local contact on HSSE / PPE regulations",New,0,0,Add new category only if existing category is not applicable
+WAN circuit Marunda 2.0,<div>as above ,Closed,35000,0,Implementation Related
+Contingency to the project schedule  ,Covid-19 situation both in south africa and India is making difficult to plan the schedule and make it realistic. Adding contingency of around 20% to the overall schedule and identifying the critical path items will allow you to plan the schedule better and set the expectations with the key stakeholders.,Closed,0,0,Proposal Related
+RTM MY Power socket change,"<div>Power socket is used externally, needed to be approved by Shell HSSE team.</div>",New,0,0,Add new category only if existing category is not applicable
+RTM Austria- Internal cabling issue,"There was an
+issue of internal cabling within the Retail stations where there is <b>unavailability
+of conduit and cable pairs to extend the telecom line coming in.</b> This can
+happen in the particularly in case of those markets where end to end work is
+getting done by One vendor Signal Horn themselves.",Closed,0,0,Add new category only if existing category is not applicable
+RTM MY - CBRE involvement ,"<div>CBRE is the vendor for retail site cabling &amp; ins managed by the site Engineering team. For RTM projects requiring CBRE interventions, it is very crucial to involve CBRE into the discussion as early as possible&nbsp; since they work on a Sub - contracting model which involves multiple 3rd party vendor based on Markets. This will provide clear understanding on the lead time &amp; delivery.&nbsp;</div>",New,0,0,Add new category only if existing category is not applicable
+RTM - Usage of the 4G LTE at retail sites,<div>There are many sites in Austria market where there is unavailibility of DSL lines and we have go in with Primary LTE solution. In this case the site was very big with huge no of truckers come to this station for refilling gas and parking. LTE quota (data )ran off the limit that caused slowness of operation/transaction at the retails sites.&nbsp;</div>,Closed,0,0,Implementation Related
+Cost Saving through effective Supplier Management  PABX Refresh Program (SGP-MTP),"<div>The practice till date has been to bring Avaya resources from London for implementation of infrastructure (PABX ) projects in Singapore geography since Avaya does not have local Singapore resources . However , with the current PABX SGP-MTP project , Shell asked AT&amp;T to explore and identify an alternative and TSS as a local vendor was identified for this project . This has brought down the project cost proposal significantly and this new arrangement will help avoid the same cost that could be associated with flying Avaya resources from London for any future&nbsp;Infrastructure work in APAC region . <br></div>",New,76000,0,Add new category only if existing category is not applicable
+RFP Process,"NDA
+  agreements take a long time to complete hence delay the RFP process ,project
+  should find a way to mitigate this lead time by doing away with the NDA
+  disclosures completely.",New,0,0,Others
+RFP Process-1,"Commercial
+  &amp; Technical rounds should happen together ,instead of linearly this will
+  help to crunch timelines.",New,0,0,Add new category only if existing category is not applicable
+RTM _Negotiations ,"We should have 2 vendors till the very end and all negotiations should happen
+  with 2 vendors instead of 1 -In india the vendor was shortlisted in Dec and
+  then legal discussion on the contract were initiated ,since we have already
+  put all our eggs in one basket ,the vendor took his own sweet time and
+  contested every clause ..we should always have 1 more vendor to play one
+  vendor against the other.",New,0,0,Others
+RFP -HSSE Assessment,"HSSE  assessment should be done at the time of award strategy paper ,because that
+  is the right time to do it because the solution is very clear at this
+  stage..current process of getting it done before the RFP is floated is flawed
+ ",New,0,0,Add new category only if existing category is not applicable
+Buy VS Lease Model,"Go for  Buy model instead of Lease model-As happened in india when we go for a lease
+  model we are shifting all the risk on the Vendor which makes them anxious and
+  they take a lot of time in agreeing to terms and condition .Lease model is
+  nothing but deffered Buy model and Shell also pays the interrest on the
+  equipment cost.so where ever possible this should be considered.",New,0,0,Add new category only if existing category is not applicable
+RTM Russia - Cabinet Hardware & Installation,Cabinet hardware and installation in Russia.,Closed,0,0,Implementation Related
+HU-RTM,"In HU we have the following services we are migrating together with retail sites to HNS:
+
+ 
+
+Debit/credit cards transactions (OTP bank)
+
+B2b cards transactions (LCASS)
+
+GPE terminal management system (remote configuration of b2b terminals)
+
+NUSZ national road toll system
+
+Mobile top-ups
+
+SFTP service – end of day sales files, stock levels etc.
+
+SFTP/NUSZ/coupon server management
+
+ 
+
+For services number 1,3,4,5 we do not need to bother AT&T or T-Systems
+
+ 
+
+For services number 2,6 &7
+
+Service number 2 will traverse from retail station to HNS to T-Systems to CGI --- this is where we have 2 options – depends on the existing configuration that we are about to verify we will need changes only on CGI end or also as well on T-Systems routers.
+
+ 
+
+Service number 6 – we need AT&T to configure for us routing & firewall rules, if the original design change we have recently talked about is approved by IRM then we won’t need T-Systems. If we stay with the original design – we also need T-Systems to implement changes on their routers.
+
+ 
+
+Service number 7 – we need AT&T to configure for us firewall rules, potentially routing, assign new IP subnet, we also need T-Systems to configure for us their routers.
+
+ 
+
+However, we have two options to go about this:
+
+Option 1 – We can submit multiple ServiceNow requests to AT&T in order to get routing/firewall rules created, IP subnets registered etc. This is cheap way, but these changes won’t be coordinated by anyone, various different AT&T teams will handle them separately and in case of problems, i.e. something was missed etc. we have to open another ServiceNow request and wait for 2-4 weeks to get the change done. In case of issues we have no person to talk to instead we have to open standard incident ticket…
+
+ 
+
+But with Option 2 – we can have a dedicated AT&T engineer like Steve Carter who will coordinate all the work on AT&T end and in case troubleshooting is required this will be arranged straight away. If something has been still missed it will be fixed sooner than with option 1. The engineer can also do some pre-checks for us before implementing the changes (i.e. view existing traffic on AT&T devices such as firewalls to understand what rules we have to create) which is not possible without having a dedicated AT&T engineer. This option though is more expensive but there will be proper coordination with it and things will get done in good time
+",Closed,0,0,Add new category only if existing category is not applicable
+Supplier assigned resource JG levels should be validated against the complexity of the work,"<div>This has been observed in some of the projects that AT&amp;T has assigned JG2 resources for the standard work. This results in increase in project cost significantly. This cost can be avoided by assessing the complexity of the task or work to be performed. For simple activity, high JG level resources should be challenged.",New,13500,0,Proposal Related
+RTM Poland - Lessons Learnt,"<div>Engagement: what went well- Clear scope of work, Good support from ITM, Regular SteerCo with effective pre-read. Business appreciated it. Very friendly and helpful team. what cud have been better: Engage more with the business to understand areas of improvementCommunication: what went well: Minutes of meeting after every call with Decision &amp; Actions clearly mentioned. what cud have been better: Initial alignment on communication formats",Closed,0,0,Add new category only if existing category is not applicable
+C&P Engagement Issues,"<div>C&;P stakeholder for Indonesia had been weak in providing accurate timelines for CP activities and responses under the project. There were also issues related to availability and engagements into project connects to provide CP specific information.In addition, the CP assigned for the project is from the region outside Indonesia which raises concerns around the network and information about the market the CP has.</div>",Closed,0,0,Business/Stakeholder related
+Pen test before Mass Rollouts,<div>Pen testing should be performed before mass roll outs otherwise potential critical vulnerabilities could get rolled out to shell stations and this will have a catastrophic impact because&nbsp; it will make Shell vulnerable to all kind of cyber attacks from the outside.IT is also one of the pre requisites for Massrollout</div>,New,0,0,Add new category only if existing category is not applicable
+Service Now Catalog Requests,"For network decommissioning of small sites, using the ServiceNow Catalog Requests (Small Site Decommissioning or SiteConnect/DSL Delete to engage ATT to decommission the network will result in zero charges to Shell as opposed to creating a WO.",Closed,0,0,Implementation Related
+Spend Authorization from Local buisness,<div>While Project kick starts check for Spend Authorization approval from&nbsp; ITM. Else project will get delayed heavily .</div>,New,0,0,Add new category only if existing category is not applicable
+Absence of test environment is risky if deployed in production environment without end-end testing,"Ensure the full functionality is tested in a test environmentvto avoid issues in production environment. Upon concurrence from
+all stakeholders and terminal focal deploy in Pilot, observe for couple of weeks before rolling out the changes in other terminals.",Closed,0,0,Add new category only if existing category is not applicable
+NDA involvement ,<div>reusing lessons learnt</div>,New,0,0,Add new category only if existing category is not applicable
+Ownership of High Level Requirements - Business ,"The Business to own the requirements gathering and hand over high
+level requirements to the Project team as they know the setup and whatoutcome to expect from Project team. Requirements can then be reviewed with all the relevant parties
+break it down to low level requirements and ownership of them to ensure the
+teams are aligned.Network Segregation Project team did not have any requirements for
+WinCC Hosting Setup and Application upgrade (WinCC/Tamsy) and SQL versions.
+ASOM Hosting Engineer started scheduling multiple conversations with Business
+and Application team and captured the inputs.One of the requirements was to ensure the end of day stock data is
+made available SPT (Supply Planning Tool) for stock reconciliation by Hamburg
+team and supply the products accordinglyResult: SPT missed in requirements, after hosting setup and
+application upgrade in Wurzburg this led to post deployment issues, EoD stock
+data was unavailable for Hamburg headquarters in Supply Planning Tool and the
+team had to pull data manually.The Hamburg headquarters supply the products to the terminal based
+on stock data in SPT. This was initially missed in requirements not mentioned
+by Business. Hamburg team had to pull the data manually from WUE terminal for a
+week, while the project team came up with a workaround pushing the data
+manually to SPT. It took 4 weeks for the File mover(Wipro), SPT and Project
+team to complete the forms, get necessary approvals to test in UAT followed by
+deployment in production. ",Closed,0,0,Requirements Gathering
+Managing Complex Project Delivery - Onboarding right skilled resources,"<div>To manage complex project/ Program - Onboarding right skilled resources is mandatory. In this case, AT&amp;T PM was changed over due course of time as the project delivery was quite complex and needed a skilled PM having experience and knowledge on AT&amp;T/Shell ecosystem to navigate though processes quickly.</div>",New,0,0,Others
+Enterprise & Local C&P alignment to facilitate local Procurement or contract set up,"Streamline and alignment of C&amp;P IT Org structure ( both Enterprise and local C&amp;P)&nbsp; to facilitate local Procurement or
+contract set up to facilitate procurement of local business PRI Circuit",New,0,0,Add new category only if existing category is not applicable
+Connext Readiness & Maturity of Processes ,"Due to evolving processes - Agreement from stakeholders for possible delays or risks due to Connext evolving processes to set right expectations. Readiness should have been checked (Resource, supplier Engagement process, Change Management, New Supplier SLA, rate card etc.) to avoid unnecessary delays, Resource Burn out and deviations in schedule/cost estimates.",New,0,0,Add new category only if existing category is not applicable
+Connext - Multiple supplier engagement ,"Supplier engagement took considerable amount of time, basis their SLA, new process etc.Require
+thorough assessment on agreed scope, asset ownership, SLA’s, deliverablesAlignment on deliverables for a multi-vendor engagement",New,0,0,Add new category only if existing category is not applicable
+WLAN e-911 Updates,"<div>e-911 updates were not successful several times since the physical MAC address of the WAP devices were used by AT&amp;T instead of the virtual MAC address. For WLAN related e-911 updates, the virtual MAC address should be used.</div>",New,0,0,Implementation Related
+ServiceNow Catalog request instead of DE resource plan with GCMC,<div>Test</div>,New,0,0,Others
+Change Freeze,"The lesson learned from the PACS project is to add additional
+weeks into the project scheduling from the “Standard buffer,” especially during
+the change freeze and working with the Shell Internal Asset SOM team, who takes
+care of the operations side of things.
+In my project, a major incident happens where my Asset SOM resources had
+to take care of the incident, putting project work on low priority. ",New,0,0,Others
+issues in netwotk in germany,some of the problems we face is as follows1.network has latency problems.2 the fireall install was delayed.3 broadband connection kept on failing,,,,
+cloud development issues,"some of the concerns voiced on azure is as follows.1lift and shift approach ,2get the webserver 3.issue with integration",,,,
+contract and procurement ,it requires both the commercial and technical proposals to come together for short timeslines.,,,,
+Squeeze timelines by implementing agile,"some of the ways project delivery can be speed up is by implementing agile ,having daily status meetings,having regular connects with vendors ,",,,,
+US visa to brazil,,,,,
